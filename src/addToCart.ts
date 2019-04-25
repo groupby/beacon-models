@@ -6,7 +6,7 @@ import { Id } from './partials/id';
 import { Metadata } from './partials/metadata';
 import { Visit } from './partials/visit';
 
-export interface IAddToCart {
+export interface AddToCart {
     NAME: string;
     id: Id;
     eventType: EventType;

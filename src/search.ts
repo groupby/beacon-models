@@ -7,7 +7,7 @@ import { ResponseId } from './partials/responseId';
 import { Search as SearchPartial } from './partials/search';
 import { Visit as VisitPartial } from './partials/visit';
 
-export interface ISearch {
+export interface Search {
     NAME: string;
     id: Id;
     clientVersion: ClientVersion;
