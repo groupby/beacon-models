@@ -1,7 +1,7 @@
 {
   "name": "@groupby/beacon-models",
   "version": "1.0.0",
-  "description": "Types representing beacons GroupBy receives from its gb-tracker-client.",
+  "description": "TypeScript interfaces and types for the beacons GroupBy systems receive.",
   "scripts": {
     "clean": "rm -r partials 2> /dev/null; rm *.d.ts 2> /dev/null; rm *.js 2> /dev/null",
     "arrangeForNpm": "mv dist/* . && rm -r dist",
