@@ -19,7 +19,7 @@ export { MoreRefinements as MoreRefinementsPartial } from
     './partials/moreRefinements';
 export * from './partials/product';
 export * from './partials/responseId';
-export * from './partials/search';
+export { Search as SearchPartial } from './partials/search';
 export * from './partials/searchNavigation';
 export * from './partials/searchNavigationList';
 export * from './partials/searchQuery';
