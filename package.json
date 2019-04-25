@@ -1,0 +1,19 @@
+{
+  "name": "@groupby/beacon-models",
+  "version": "0.0.1-alpha.4",
+  "description": "Types representing beacons GroupBy receives from its gb-tracker-client.",
+  "scripts": {
+    "clean": "rm -r partials 2> /dev/null; rm *.d.ts && rm *.js",
+    "arrangeForNpm": "mv dist/* . && rm -r dist",
+    "compileTs": "./node_modules/.bin/tsc",
+    "build": "npm run clean && npm run compileTs && npm run arrangeForNpm"
+  },
+  "keywords": [],
+  "author": "GroupBy Inc.",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  },
+  "main": "index.js",
+  "types": "index.d.ts"
+}
