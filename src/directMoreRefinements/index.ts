@@ -1,8 +1,15 @@
-import { CustomerId } from './partials/customerId';
-import { DirectMoreRefinements as DirectMoreRefinementsPartial } from
-    './partials/directMoreRefinements';
-import { EventType } from './partials/eventType';
-import { ResponseId } from './partials/responseId';
+import {
+    CustomerId,
+} from '../partials/customerId';
+import {
+    DirectMoreRefinements as DirectMoreRefinementsPartial,
+} from '../partials/directMoreRefinements';
+import {
+    EventType,
+} from '../partials/eventType';
+import {
+    ResponseId,
+} from '../partials/responseId';
 
 export interface DirectMoreRefinements extends DirectMoreRefinementsPartial {
     NAME: string;

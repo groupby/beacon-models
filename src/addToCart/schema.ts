@@ -23,9 +23,9 @@ import {
     validation as metadataVal,
 } from '../partials/metadata/schema';
 import {
-    sanitization as idSan,
-    validation as idVal,
-} from '../partials/metadata/schema';
+    sanitization as visitSan,
+    validation as visitVal,
+} from '../partials/visit/schema';
 
 export const sanitization = {
     type: 'object',

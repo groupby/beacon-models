@@ -1,4 +1,6 @@
-import { EventCustomer } from './partials/customer';
+import {
+    EventCustomer,
+} from '../partials/customer';
 
 export interface EventSegment {
     uuid: string;

@@ -1,9 +1,21 @@
-import { ClientVersion } from './partials/clientVersion';
-import { DateStringOptional } from './partials/dateStringOptional';
-import { EventCustomer } from './partials/customer';
-import { EventString } from './partials/eventString';
-import { EventType } from './partials/eventType';
-import { Id } from './partials/id';
+import {
+    ClientVersion,
+} from '../partials/clientVersion';
+import {
+    DateStringOptional,
+} from '../partials/dateStringOptional';
+import {
+    EventCustomer,
+} from '../partials/customer';
+import {
+    EventString,
+} from '../partials/eventString';
+import {
+    EventType,
+} from '../partials/eventType';
+import {
+    Id,
+} from '../partials/id';
 
 export interface Invalid {
     NAME: string;
