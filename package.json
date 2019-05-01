@@ -1,12 +1,13 @@
 {
   "name": "@groupby/beacon-models",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "TypeScript interfaces and types for the beacons GroupBy systems receive.",
   "scripts": {
     "clean": "rm -r addToCart autoMoreRefinements autoSearch constants directMoreRefinements directSearch invalid moreRefinements order partials removeFromCart search segment utils viewCart viewProduct 2> /dev/null; rm *.d.ts 2> /dev/null; rm *.js 2> /dev/null",
     "compileTs": "./node_modules/.bin/tsc",
     "arrangeForNpm": "mv dist/* . && rm -r dist",
-    "build": "npm run clean 2> /dev/null; npm run compileTs && npm run arrangeForNpm"
+    "build": "npm run clean 2> /dev/null; npm run compileTs && npm run arrangeForNpm",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [],
   "author": "GroupBy Inc.",
