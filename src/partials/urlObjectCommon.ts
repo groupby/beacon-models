@@ -11,3 +11,5 @@ export interface UrlObjectCommon {
     search?: string;
     slashes?: boolean;
 };
+
+// No sanitization or validation
