@@ -1,5 +1,9 @@
 {
   "name": "@groupby/beacon-models",
+  "repository": {
+    "type" : "git",
+    "url" : "git@github.com:groupby/beacon-models-ts.git"
+  },
   "version": "2.0.1",
   "description": "TypeScript interfaces and types for the beacons GroupBy systems receive.",
   "scripts": {
