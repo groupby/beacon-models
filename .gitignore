@@ -3,19 +3,3 @@ node_modules
 
 *.js
 *.d.ts
-partials/**/*.js
-addToCart
-autoMoreRefinements
-autoSearch
-constants
-directMoreRefinements
-directSearch
-invalid
-moreRefinements
-order
-removeFromCart
-search
-segment
-utils
-viewCart
-viewProduct
