@@ -1,6 +1,6 @@
 import {
     Cart,
-} from '../partials/cart';
+} from '../partials/cart/index';
 import {
     ClientVersion,
 } from '../partials/clientVersion';
