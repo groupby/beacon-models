@@ -36,13 +36,13 @@ export const validation = {
     properties: {
         category: { type: 'string', optional: true },
         collection: { type: 'string', optional: false },
-        title: { type: 'string', optional: true },
+        title: { type: 'string', optional: false },
         sku: { type: 'string', optional: true },
-        productId: { type: 'string' },
+        productId: { type: 'string', optional: false },
         parentId: { type: 'string', optional: true },
         margin: { type: 'number', optional: true },
         price: { type: 'number', optional: true },
-        quantity: { type: 'integer' },
+        quantity: { type: 'integer', optional: false },
         metadata: metadataVal,
     },
 };
