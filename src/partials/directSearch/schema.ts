@@ -103,8 +103,8 @@ export const sanitization = {
                         type: 'object',
                         strict: true,
                         properties: {
-                            sku: { type: 'string', maxLength: MAX_STR_LENGTH, rules: ['trim', 'lower'] },
-                            productId: { type: 'string', maxLength: MAX_STR_LENGTH, rules: ['trim', 'lower'] },
+                            sku: { type: 'string', maxLength: MAX_STR_LENGTH, rules: ['trim'] },
+                            productId: { type: 'string', maxLength: MAX_STR_LENGTH, rules: ['trim'] },
                         },
                     },
                     refinementMatches: {
